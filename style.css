@@ -1,0 +1,38 @@
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+.nps-input {
+    width: 50px;
+}
+
+div.detratores {
+    background-color: rgb(210, 102, 102);
+    border: 1px, rgb(210, 102, 102), solid;
+    border-radius: 5px;
+}
+
+div.neutros {
+    background-color: rgb(227, 227, 17);
+    border: 1px, rgb(227, 227, 17), solid;
+    border-radius: 5px;
+}
+
+div.promotores {
+    background-color: rgb(17, 227, 122);
+    border: 1px, rgb(17, 227, 122), solid;
+    border-radius: 5px;
+}
+
+#pontuacao {
+    font-weight: bold;
+}
+
+#zona {
+    text-align: justify;
+}
